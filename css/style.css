@@ -1,0 +1,25 @@
+.card {
+    font-size: .9rem;
+    font-weight: 700;
+}
+.nigiri {
+    background-color: #ffcd41;
+}
+.sashimi {
+    background-color: #c3e100;
+}
+.dumplings {
+    background-color: #69a9dd;
+}
+.chopsticks {
+    background-color: #adefcf;
+}
+.tempura {
+    background-color: #c9a6d4;
+}
+.pudding{
+    background-color: #ffbdc2;
+}
+.maki-roll {
+    background-color: #eb3525;
+}
