@@ -1,3 +1,3 @@
 # sushi-count
 
-## Practicing with Vue.js
+Practicing with Vue.js
