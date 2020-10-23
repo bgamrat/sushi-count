@@ -11,7 +11,7 @@ var app = new Vue({
             {name: 'dumplings', css: 'dumplings', count: 14},
             {name: '1 maki roll', css: 'maki-roll', count: 6},
             {name: '2 maki rolls', css: 'maki-roll', count: 12},
-            {name: '3 maki rolls', css: 'maki-roll', count: 3},
+            {name: '3 maki rolls', css: 'maki-roll', count: 8},
             {name: 'pudding', css: 'pudding', count: 10},
             {name: 'chopsticks', css: 'chopsticks', count: 4}
         ]
