@@ -3,9 +3,9 @@ var app = new Vue({
     data: {
         items: [
             {name: 'wasabi', css: 'nigiri', count: 6},
-            {name: 'squid nigiri', css: 'nigiri', count: 5},
-            {name: 'salmon nigiri', css: 'nigiri', count: 10},
             {name: 'egg nigiri', css: 'nigiri', count: 5},
+            {name: 'salmon nigiri', css: 'nigiri', count: 10},
+            {name: 'squid nigiri', css: 'nigiri', count: 5},
             {name: 'tempura', css: 'tempura', count: 14},
             {name: 'sashimi', css: 'sashimi', count: 14},
             {name: 'dumplings', css: 'dumplings', count: 14},
@@ -17,10 +17,10 @@ var app = new Vue({
         ]
     },
     template: `
-    <div>
+<div>
     <card v-for='item in items'
         :class="item.css" :text="item.name" :count="item.count"></card>
     </card>
-    </div>
+</div>
 `
 });

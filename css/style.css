@@ -1,25 +1,34 @@
+:root {
+    --nigiri-color: #ffcd41;
+    --sashimi-color: #c3e100;
+    --dumplings-color: #69a9dd;
+    --chopsticks-color: #adefcf;
+    --tempura-color: #c9a6d4;
+    --pudding-color: #ffbdc2;
+    --maki-roll-color: #eb3525;
+}
 .card {
     font-size: .9rem;
     font-weight: 700;
 }
-.nigiri {
-    background-color: #ffcd41;
-}
-.sashimi {
-    background-color: #c3e100;
+.chopsticks {
+    background-color: var(--chopsticks-color);
 }
 .dumplings {
-    background-color: #69a9dd;
-}
-.chopsticks {
-    background-color: #adefcf;
-}
-.tempura {
-    background-color: #c9a6d4;
-}
-.pudding{
-    background-color: #ffbdc2;
+    background-color: var(--dumplings-color);
 }
 .maki-roll {
-    background-color: #eb3525;
+    background-color: var(--maki-roll-color);
+}
+.nigiri {
+    background-color: var(--nigiri-color);
+}
+.pudding{
+    background-color: var(--pudding-color);
+}
+.sashimi {
+    background-color: var(--sashimi-color);
+}
+.tempura {
+    background-color: var(--tempura-color);
 }
