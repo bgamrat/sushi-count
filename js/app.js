@@ -19,7 +19,7 @@ var app = new Vue({
     template: `
 <div>
     <card v-for='item in items'
-        :class="item.css" :text="item.name" :count="item.count"></card>
+        :class="item.css" :text="item.name" :count="item.count">
     </card>
 </div>
 `
